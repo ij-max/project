@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bree Serif', serif;
+    font-weight: 300;
+    border: 1px solid black;
+    margin: 50px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#first-address{
+    text-align: right;
+    font-style: italic;
+    
+}
+span{
+    font-weight:900;
+}
+p{
+    margin-top: 15px;
+}
+.date{
+    margin-top: 15px;
+
+}
+li{
+    margin-left: 50px;
+}
+a{
+    color: blue;
+}
+.rubbish{
+    margin:10px 0px 10px 40px ;
+}
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+        font-size: small;
+    }
+}
